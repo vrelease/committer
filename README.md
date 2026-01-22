@@ -4,10 +4,10 @@
 
 # committer
 
-[gh-bnt-shield]: https://img.shields.io/github/workflow/status/caian-org/committer/build-and-test?label=build%20%26%20test&logo=github&style=flat-square
+[gh-bnt-shield]: https://img.shields.io/github/actions/workflow/status/caian-org/committer/build-many.yml?branch=main&label=build%20%26%20test&logo=github&style=flat-square
 [gh-bnt-url]: https://github.com/caian-org/committer/actions/workflows/build-many.yml
 
-[gh-release-shield]: https://img.shields.io/github/workflow/status/caian-org/committer/release?label=release&logo=github&style=flat-square
+[gh-release-shield]: https://img.shields.io/github/actions/workflow/status/caian-org/committer/release-all.yml?branch=main&label=release&logo=github&style=flat-square
 [gh-release-url]: https://github.com/caian-org/committer/actions/workflows/release-all.yml
 
 [tag-shield]: https://img.shields.io/github/tag/caian-org/committer.svg?logo=git&logoColor=FFF&style=flat-square
