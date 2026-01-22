@@ -4,7 +4,6 @@ import std/random
 import std/strutils
 import std/sequtils
 import std/sugar
-import system/io
 
 import semver
 import util/str
