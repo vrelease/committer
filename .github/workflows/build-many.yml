@@ -55,7 +55,12 @@ jobs:
         run: nimble refresh
 
       - name: Compile
-        run: make release
+        run: |
+          if [ "${{ matrix.os }}" = "macos-latest" ]; then
+            make build
+          else
+            make release
+          fi
 
       - name: Configure git
         run: |
