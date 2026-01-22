@@ -30,4 +30,3 @@ build: clean
 release: NFLAGS += -d:release
 release: build
 	@strip $(ARTIFACT)
-	@upx --best --lzma $(ARTIFACT)
