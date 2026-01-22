@@ -46,9 +46,10 @@ jobs:
         if: ${{ matrix.os == 'windows-latest' }}
 
       - name: Setup Nim
-        uses: jiro4989/setup-nim-action@v1
+        uses: jiro4989/setup-nim-action@v2
         with:
           nim-version: '1.6.0'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Refresh package list
         run: nimble refresh
